@@ -1,0 +1,180 @@
+@import url('https://fonts.cdnfonts.com/css/teko');
+*{
+    font-family: 'Teko', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    background-color: black;  
+    width: 100%;
+    height: 76px;
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+header .logo img{
+    height: 76px;
+}
+.logo{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+nav ul{
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+.nav ul .nav
+nav ul i{
+    color: #a5a5a5;
+}
+nav ul a{
+    font-size: 20px;
+    color: #ffffffbc;
+    font-weight: 600;
+}
+nav ul i:hover{
+    color: #eca800;
+}
+nav ul a:hover{
+    color: #eca800;
+}
+header .game i{
+    padding-right: 20px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.game{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    cursor: pointer;
+}
+.game a{
+    background-color: #eca800;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 76px;
+    width: 190px;
+    color: #333;
+    font-weight: 700;
+}
+.game a:hover{
+    background-color: #dab513;
+}
+.game i:hover{
+    color: #dab513;
+}
+/**section**/
+.continer{
+    justify-content: center;
+    background-image: url("bg_redeem.jpg");
+    background-size: cover;
+    height: 100% auto;
+    overflow: hidden;
+    padding: 20px 24px 64px;
+    display: flex;
+    margin: auto;
+}
+.form-box{
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
+    max-width: 700px;
+    background-color: white;
+    max-height: 700px;
+    padding: 40px;
+}
+.form-box p{
+    font-size: 25px;
+    color: #333;
+}
+.form-box h2{
+    padding-bottom: 30px;
+    font-size: 55px;
+    font-weight: 700;
+    color: #333;
+}
+.form-box input{
+    width: 100%;
+    height: 70px;
+    border: 1px solid #ccc;
+    font-size: 25px;
+    color: #333;
+    padding-left: 15px;
+    border-radius: 6px;
+    outline: none;
+}
+.form-box input::placeholder{
+    color: #b6b6b6;
+}
+.form-box label{
+    font-size: 22px;
+    color: #333;
+    padding-bottom: 20px;
+}
+.form-box button{
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    border: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.form-box button:hover{
+    background-color: #dab513;
+    color: #333;
+}
+footer{
+    background-color: #000;
+    padding-top: 30px;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+}
+.logof{
+    display: flex;
+    justify-content: center;
+}
+.logof img{
+    opacity: 1;
+    max-height: 30px;
+}
+.copyright{
+    padding-top: 10px;
+    color: #ababab;
+    display: flex;
+    justify-content: center;
+}
+.flink {
+    display: flex;
+    gap: 2rem;
+    padding: 5px 10px;
+    justify-content: center;
+
+}
+.flink a{
+    color: #828282;
+    font-size: 14px;
+    text-decoration: none;
+}
+.flink a:hover{
+    color: #ffffff;
+}
